@@ -1,0 +1,1966 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2024/6/OntologiaTFGBibliotecaDigital"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2024/6/OntologiaTFGBibliotecaDigital">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2024/6/OntologiaTFGBibliotecaDigital/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aranes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsociacionDePrensaDeMadrid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biblioteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibliotecaDeCataluña"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibliotecaDeCultura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibliotecaDeGalicia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibliotecaDeNavarra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Castellano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Catalan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CienciaEspaña"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComunidadAutonoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DictaduraFranquista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Editor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Editorial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Euskadi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FamiliaReal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fecha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FechaDePublicacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Formato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gallego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imprenta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Individual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JPEG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JPG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lengua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Localidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MateriaEvento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PDF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PeriodoDePublicacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliticaEspaña"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prensa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimeraRepublica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provincia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Revista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secundarios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SegundaRepublica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Titulo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ubicacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uniforme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Valenciano"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#clasificaEn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#disponeDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#escritoEn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#escritoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#guardadoEn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publicadoEn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#puedeSer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#puedeSerME"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seComponeDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ubicadoEn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fecha"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#formatoDisponible"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreDeAutor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreDeBiblioteca"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreDeEditorial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreDeLengua"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreDeMateriaEvento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreDeTitulo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreTipoDocumento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AU1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AU3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AU5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AU6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#B1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#B3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#B5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BI1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BI3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BI5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CA1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CA5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CE1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DOC1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DOC5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#E1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#E3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#E5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#E6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ED1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ED5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EDT1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EDT3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EDT5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EDT6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#F1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#F2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#F3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#F4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#F5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#F6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FO1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FO2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FO4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FP2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FP4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FP5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FP6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JPE4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#L1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LE1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LO1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LO5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LO6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ME1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ME3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ME5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PA1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PD1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PP3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PR1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PRO1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PRO5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PRO6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SR1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TIT1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TIT2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TIT3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TIT4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TIT5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TIT6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#U1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#U5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#U6"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Aranes"/>
+        <Class IRI="#Lengua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsociacionDePrensaDeMadrid"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibliotecaDeCataluña"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibliotecaDeCultura"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibliotecaDeGalicia"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibliotecaDeNavarra"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Castellano"/>
+        <Class IRI="#Lengua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catalan"/>
+        <Class IRI="#Lengua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CienciaEspaña"/>
+        <Class IRI="#MateriaEvento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComunidadAutonoma"/>
+        <Class IRI="#Ubicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DictaduraFranquista"/>
+        <Class IRI="#MateriaEvento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Editor"/>
+        <Class IRI="#Editorial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Euskadi"/>
+        <Class IRI="#Lengua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FamiliaReal"/>
+        <Class IRI="#MateriaEvento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FechaDePublicacion"/>
+        <Class IRI="#Fecha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gallego"/>
+        <Class IRI="#Lengua"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imprenta"/>
+        <Class IRI="#Editorial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Individual"/>
+        <Class IRI="#Titulo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JPEG"/>
+        <Class IRI="#Formato"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JPG"/>
+        <Class IRI="#Formato"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Localidad"/>
+        <Class IRI="#Ubicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PDF"/>
+        <Class IRI="#Formato"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pais"/>
+        <Class IRI="#Ubicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PeriodoDePublicacion"/>
+        <Class IRI="#Fecha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliticaEspaña"/>
+        <Class IRI="#MateriaEvento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prensa"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimeraRepublica"/>
+        <Class IRI="#MateriaEvento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provincia"/>
+        <Class IRI="#Ubicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Revista"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secundarios"/>
+        <Class IRI="#Autor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SegundaRepublica"/>
+        <Class IRI="#MateriaEvento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unico"/>
+        <Class IRI="#Autor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uniforme"/>
+        <Class IRI="#Titulo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valenciano"/>
+        <Class IRI="#Lengua"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Autor"/>
+        <NamedIndividual IRI="#A1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Autor"/>
+        <NamedIndividual IRI="#A3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Autor"/>
+        <NamedIndividual IRI="#A5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Autor"/>
+        <NamedIndividual IRI="#A6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unico"/>
+        <NamedIndividual IRI="#AU1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unico"/>
+        <NamedIndividual IRI="#AU3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unico"/>
+        <NamedIndividual IRI="#AU5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Unico"/>
+        <NamedIndividual IRI="#AU6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biblioteca"/>
+        <NamedIndividual IRI="#B1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biblioteca"/>
+        <NamedIndividual IRI="#B3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biblioteca"/>
+        <NamedIndividual IRI="#B5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BibliotecaDeCultura"/>
+        <NamedIndividual IRI="#BI1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsociacionDePrensaDeMadrid"/>
+        <NamedIndividual IRI="#BI3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BibliotecaDeGalicia"/>
+        <NamedIndividual IRI="#BI5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComunidadAutonoma"/>
+        <NamedIndividual IRI="#CA1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComunidadAutonoma"/>
+        <NamedIndividual IRI="#CA5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CienciaEspaña"/>
+        <NamedIndividual IRI="#CE1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Documento"/>
+        <NamedIndividual IRI="#D1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Documento"/>
+        <NamedIndividual IRI="#D2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Documento"/>
+        <NamedIndividual IRI="#D3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Documento"/>
+        <NamedIndividual IRI="#D4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Documento"/>
+        <NamedIndividual IRI="#D5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Documento"/>
+        <NamedIndividual IRI="#D6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Prensa"/>
+        <NamedIndividual IRI="#DOC1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Revista"/>
+        <NamedIndividual IRI="#DOC5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Editorial"/>
+        <NamedIndividual IRI="#E1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Editorial"/>
+        <NamedIndividual IRI="#E3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Editorial"/>
+        <NamedIndividual IRI="#E5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Editorial"/>
+        <NamedIndividual IRI="#E6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Imprenta"/>
+        <NamedIndividual IRI="#ED1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Imprenta"/>
+        <NamedIndividual IRI="#ED5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Editor"/>
+        <NamedIndividual IRI="#EDT1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Editor"/>
+        <NamedIndividual IRI="#EDT3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Editor"/>
+        <NamedIndividual IRI="#EDT5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Editor"/>
+        <NamedIndividual IRI="#EDT6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fecha"/>
+        <NamedIndividual IRI="#F1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fecha"/>
+        <NamedIndividual IRI="#F2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fecha"/>
+        <NamedIndividual IRI="#F3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fecha"/>
+        <NamedIndividual IRI="#F4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fecha"/>
+        <NamedIndividual IRI="#F5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fecha"/>
+        <NamedIndividual IRI="#F6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Formato"/>
+        <NamedIndividual IRI="#FO1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Formato"/>
+        <NamedIndividual IRI="#FO2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Formato"/>
+        <NamedIndividual IRI="#FO4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FechaDePublicacion"/>
+        <NamedIndividual IRI="#FP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FechaDePublicacion"/>
+        <NamedIndividual IRI="#FP4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FechaDePublicacion"/>
+        <NamedIndividual IRI="#FP5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FechaDePublicacion"/>
+        <NamedIndividual IRI="#FP6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JPG"/>
+        <NamedIndividual IRI="#JP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JPEG"/>
+        <NamedIndividual IRI="#JPE4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lengua"/>
+        <NamedIndividual IRI="#L1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Castellano"/>
+        <NamedIndividual IRI="#LE1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Localidad"/>
+        <NamedIndividual IRI="#LO1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Localidad"/>
+        <NamedIndividual IRI="#LO5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Localidad"/>
+        <NamedIndividual IRI="#LO6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MateriaEvento"/>
+        <NamedIndividual IRI="#ME1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MateriaEvento"/>
+        <NamedIndividual IRI="#ME3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MateriaEvento"/>
+        <NamedIndividual IRI="#ME5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pais"/>
+        <NamedIndividual IRI="#PA1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PDF"/>
+        <NamedIndividual IRI="#PD1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PeriodoDePublicacion"/>
+        <NamedIndividual IRI="#PP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PeriodoDePublicacion"/>
+        <NamedIndividual IRI="#PP3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrimeraRepublica"/>
+        <NamedIndividual IRI="#PR1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Provincia"/>
+        <NamedIndividual IRI="#PRO1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Provincia"/>
+        <NamedIndividual IRI="#PRO5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Provincia"/>
+        <NamedIndividual IRI="#PRO6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SegundaRepublica"/>
+        <NamedIndividual IRI="#SR1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Titulo"/>
+        <NamedIndividual IRI="#T1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Titulo"/>
+        <NamedIndividual IRI="#T2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Titulo"/>
+        <NamedIndividual IRI="#T3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Titulo"/>
+        <NamedIndividual IRI="#T4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Titulo"/>
+        <NamedIndividual IRI="#T5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Titulo"/>
+        <NamedIndividual IRI="#T6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Uniforme"/>
+        <NamedIndividual IRI="#TIT1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Individual"/>
+        <NamedIndividual IRI="#TIT2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Uniforme"/>
+        <NamedIndividual IRI="#TIT3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Individual"/>
+        <NamedIndividual IRI="#TIT4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Individual"/>
+        <NamedIndividual IRI="#TIT5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Individual"/>
+        <NamedIndividual IRI="#TIT6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ubicacion"/>
+        <NamedIndividual IRI="#U1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ubicacion"/>
+        <NamedIndividual IRI="#U5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ubicacion"/>
+        <NamedIndividual IRI="#U6"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escritoPor"/>
+        <NamedIndividual IRI="#A1"/>
+        <NamedIndividual IRI="#AU1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escritoPor"/>
+        <NamedIndividual IRI="#A3"/>
+        <NamedIndividual IRI="#AU3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escritoPor"/>
+        <NamedIndividual IRI="#A5"/>
+        <NamedIndividual IRI="#AU5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escritoPor"/>
+        <NamedIndividual IRI="#A6"/>
+        <NamedIndividual IRI="#AU6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#guardadoEn"/>
+        <NamedIndividual IRI="#B1"/>
+        <NamedIndividual IRI="#BI1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#guardadoEn"/>
+        <NamedIndividual IRI="#B3"/>
+        <NamedIndividual IRI="#BI3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#guardadoEn"/>
+        <NamedIndividual IRI="#B5"/>
+        <NamedIndividual IRI="#BI5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#clasificaEn"/>
+        <NamedIndividual IRI="#D1"/>
+        <NamedIndividual IRI="#DOC1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D1"/>
+        <NamedIndividual IRI="#A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D1"/>
+        <NamedIndividual IRI="#B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D1"/>
+        <NamedIndividual IRI="#E1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D1"/>
+        <NamedIndividual IRI="#F1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D1"/>
+        <NamedIndividual IRI="#FO1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D1"/>
+        <NamedIndividual IRI="#L1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D1"/>
+        <NamedIndividual IRI="#ME1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D1"/>
+        <NamedIndividual IRI="#T1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D1"/>
+        <NamedIndividual IRI="#U1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#clasificaEn"/>
+        <NamedIndividual IRI="#D2"/>
+        <NamedIndividual IRI="#DOC1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D2"/>
+        <NamedIndividual IRI="#A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D2"/>
+        <NamedIndividual IRI="#B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D2"/>
+        <NamedIndividual IRI="#E1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D2"/>
+        <NamedIndividual IRI="#F2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D2"/>
+        <NamedIndividual IRI="#FO2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D2"/>
+        <NamedIndividual IRI="#L1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D2"/>
+        <NamedIndividual IRI="#ME1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D2"/>
+        <NamedIndividual IRI="#T2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D2"/>
+        <NamedIndividual IRI="#U1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#clasificaEn"/>
+        <NamedIndividual IRI="#D3"/>
+        <NamedIndividual IRI="#DOC1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D3"/>
+        <NamedIndividual IRI="#A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D3"/>
+        <NamedIndividual IRI="#B3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D3"/>
+        <NamedIndividual IRI="#E3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D3"/>
+        <NamedIndividual IRI="#F3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D3"/>
+        <NamedIndividual IRI="#FO1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D3"/>
+        <NamedIndividual IRI="#L1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D3"/>
+        <NamedIndividual IRI="#ME3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D3"/>
+        <NamedIndividual IRI="#T3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D3"/>
+        <NamedIndividual IRI="#U1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#clasificaEn"/>
+        <NamedIndividual IRI="#D4"/>
+        <NamedIndividual IRI="#DOC1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D4"/>
+        <NamedIndividual IRI="#A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D4"/>
+        <NamedIndividual IRI="#B3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D4"/>
+        <NamedIndividual IRI="#F4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D4"/>
+        <NamedIndividual IRI="#FO4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D4"/>
+        <NamedIndividual IRI="#L1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D4"/>
+        <NamedIndividual IRI="#ME3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D4"/>
+        <NamedIndividual IRI="#T4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D4"/>
+        <NamedIndividual IRI="#U1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#clasificaEn"/>
+        <NamedIndividual IRI="#D5"/>
+        <NamedIndividual IRI="#DOC5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D5"/>
+        <NamedIndividual IRI="#A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D5"/>
+        <NamedIndividual IRI="#B5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D5"/>
+        <NamedIndividual IRI="#E5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D5"/>
+        <NamedIndividual IRI="#F5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D5"/>
+        <NamedIndividual IRI="#FO2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D5"/>
+        <NamedIndividual IRI="#L1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D5"/>
+        <NamedIndividual IRI="#ME5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D5"/>
+        <NamedIndividual IRI="#T5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D5"/>
+        <NamedIndividual IRI="#U5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#clasificaEn"/>
+        <NamedIndividual IRI="#D6"/>
+        <NamedIndividual IRI="#DOC5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D6"/>
+        <NamedIndividual IRI="#A6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D6"/>
+        <NamedIndividual IRI="#B5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D6"/>
+        <NamedIndividual IRI="#E6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D6"/>
+        <NamedIndividual IRI="#L1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D6"/>
+        <NamedIndividual IRI="#ME5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D6"/>
+        <NamedIndividual IRI="#T6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tiene"/>
+        <NamedIndividual IRI="#D6"/>
+        <NamedIndividual IRI="#U6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#seComponeDe"/>
+        <NamedIndividual IRI="#E1"/>
+        <NamedIndividual IRI="#ED1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#seComponeDe"/>
+        <NamedIndividual IRI="#E1"/>
+        <NamedIndividual IRI="#EDT1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#seComponeDe"/>
+        <NamedIndividual IRI="#E3"/>
+        <NamedIndividual IRI="#ED1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#seComponeDe"/>
+        <NamedIndividual IRI="#E3"/>
+        <NamedIndividual IRI="#EDT3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#seComponeDe"/>
+        <NamedIndividual IRI="#E5"/>
+        <NamedIndividual IRI="#ED5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#seComponeDe"/>
+        <NamedIndividual IRI="#E5"/>
+        <NamedIndividual IRI="#EDT5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#seComponeDe"/>
+        <NamedIndividual IRI="#E6"/>
+        <NamedIndividual IRI="#ED5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#seComponeDe"/>
+        <NamedIndividual IRI="#E6"/>
+        <NamedIndividual IRI="#EDT6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publicadoEn"/>
+        <NamedIndividual IRI="#F1"/>
+        <NamedIndividual IRI="#PP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publicadoEn"/>
+        <NamedIndividual IRI="#F2"/>
+        <NamedIndividual IRI="#FP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publicadoEn"/>
+        <NamedIndividual IRI="#F3"/>
+        <NamedIndividual IRI="#PP3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publicadoEn"/>
+        <NamedIndividual IRI="#F4"/>
+        <NamedIndividual IRI="#FP4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publicadoEn"/>
+        <NamedIndividual IRI="#F5"/>
+        <NamedIndividual IRI="#FP5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publicadoEn"/>
+        <NamedIndividual IRI="#F6"/>
+        <NamedIndividual IRI="#FP6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disponeDe"/>
+        <NamedIndividual IRI="#FO1"/>
+        <NamedIndividual IRI="#JP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disponeDe"/>
+        <NamedIndividual IRI="#FO1"/>
+        <NamedIndividual IRI="#PD1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disponeDe"/>
+        <NamedIndividual IRI="#FO2"/>
+        <NamedIndividual IRI="#PD1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disponeDe"/>
+        <NamedIndividual IRI="#FO4"/>
+        <NamedIndividual IRI="#JP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disponeDe"/>
+        <NamedIndividual IRI="#FO4"/>
+        <NamedIndividual IRI="#JPE4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disponeDe"/>
+        <NamedIndividual IRI="#FO4"/>
+        <NamedIndividual IRI="#PD1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escritoEn"/>
+        <NamedIndividual IRI="#L1"/>
+        <NamedIndividual IRI="#LE1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#puedeSerME"/>
+        <NamedIndividual IRI="#ME1"/>
+        <NamedIndividual IRI="#PR1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#puedeSerME"/>
+        <NamedIndividual IRI="#ME3"/>
+        <NamedIndividual IRI="#SR1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#puedeSerME"/>
+        <NamedIndividual IRI="#ME5"/>
+        <NamedIndividual IRI="#CE1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#puedeSer"/>
+        <NamedIndividual IRI="#T1"/>
+        <NamedIndividual IRI="#TIT1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#puedeSer"/>
+        <NamedIndividual IRI="#T2"/>
+        <NamedIndividual IRI="#TIT2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#puedeSer"/>
+        <NamedIndividual IRI="#T3"/>
+        <NamedIndividual IRI="#TIT3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#puedeSer"/>
+        <NamedIndividual IRI="#T4"/>
+        <NamedIndividual IRI="#TIT4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#puedeSer"/>
+        <NamedIndividual IRI="#T5"/>
+        <NamedIndividual IRI="#TIT5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#puedeSer"/>
+        <NamedIndividual IRI="#T6"/>
+        <NamedIndividual IRI="#TIT6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#U1"/>
+        <NamedIndividual IRI="#CA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#U1"/>
+        <NamedIndividual IRI="#LO1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#U1"/>
+        <NamedIndividual IRI="#PA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#U1"/>
+        <NamedIndividual IRI="#PRO1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#U5"/>
+        <NamedIndividual IRI="#CA5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#U5"/>
+        <NamedIndividual IRI="#LO5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#U5"/>
+        <NamedIndividual IRI="#PA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#U5"/>
+        <NamedIndividual IRI="#PRO5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#U6"/>
+        <NamedIndividual IRI="#CA5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#U6"/>
+        <NamedIndividual IRI="#LO6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#U6"/>
+        <NamedIndividual IRI="#PA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#U6"/>
+        <NamedIndividual IRI="#PRO6"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeAutor"/>
+        <NamedIndividual IRI="#AU1"/>
+        <Literal>Juan Manuel Pardo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeAutor"/>
+        <NamedIndividual IRI="#AU3"/>
+        <Literal>Francisco José Hernández Pardo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeAutor"/>
+        <NamedIndividual IRI="#AU5"/>
+        <Literal>Carlos Rodríguez García</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeAutor"/>
+        <NamedIndividual IRI="#AU6"/>
+        <Literal>Juan Pardo Bazar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeBiblioteca"/>
+        <NamedIndividual IRI="#BI1"/>
+        <Literal>Biblioteca de Cultura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeBiblioteca"/>
+        <NamedIndividual IRI="#BI3"/>
+        <Literal>Asociación de Prensa de Madrid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeBiblioteca"/>
+        <NamedIndividual IRI="#BI5"/>
+        <Literal>Biblioteca de Galicia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+        <NamedIndividual IRI="#CA1"/>
+        <Literal>Madrid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+        <NamedIndividual IRI="#CA5"/>
+        <Literal>Galicia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeMateriaEvento"/>
+        <NamedIndividual IRI="#CE1"/>
+        <Literal>Ciencia España</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreTipoDocumento"/>
+        <NamedIndividual IRI="#DOC1"/>
+        <Literal>Prensa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreTipoDocumento"/>
+        <NamedIndividual IRI="#DOC5"/>
+        <Literal>Revista</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeEditorial"/>
+        <NamedIndividual IRI="#ED1"/>
+        <Literal>Calles de Madrid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+        <NamedIndividual IRI="#ED5"/>
+        <Literal>La ciencia española</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeEditorial"/>
+        <NamedIndividual IRI="#EDT1"/>
+        <Literal>José Miguel García</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeEditorial"/>
+        <NamedIndividual IRI="#EDT3"/>
+        <Literal>Luís González</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeEditorial"/>
+        <NamedIndividual IRI="#EDT5"/>
+        <Literal>Luís García Carnero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeEditorial"/>
+        <NamedIndividual IRI="#EDT6"/>
+        <Literal>Jesús Aparicio López</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fecha"/>
+        <NamedIndividual IRI="#FP2"/>
+        <Literal>19/09/1984</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fecha"/>
+        <NamedIndividual IRI="#FP4"/>
+        <Literal>19/09/1939</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fecha"/>
+        <NamedIndividual IRI="#FP5"/>
+        <Literal>19/09/1887</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fecha"/>
+        <NamedIndividual IRI="#FP6"/>
+        <Literal>19/09/1909</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formatoDisponible"/>
+        <NamedIndividual IRI="#JP1"/>
+        <Literal>JPG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formatoDisponible"/>
+        <NamedIndividual IRI="#JPE4"/>
+        <Literal>JPEG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeEditorial"/>
+        <NamedIndividual IRI="#LE1"/>
+        <Literal>Castellano</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+        <NamedIndividual IRI="#LO1"/>
+        <Literal>Madrid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+        <NamedIndividual IRI="#LO5"/>
+        <Literal>Santiago</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+        <NamedIndividual IRI="#LO6"/>
+        <Literal>A Coruña</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+        <NamedIndividual IRI="#PA1"/>
+        <Literal>España</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formatoDisponible"/>
+        <NamedIndividual IRI="#PD1"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fecha"/>
+        <NamedIndividual IRI="#PP1"/>
+        <Literal>1983-1984</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fecha"/>
+        <NamedIndividual IRI="#PP3"/>
+        <Literal>1931-1939</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeMateriaEvento"/>
+        <NamedIndividual IRI="#PR1"/>
+        <Literal>Primera Republica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+        <NamedIndividual IRI="#PRO1"/>
+        <Literal>Madrid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+        <NamedIndividual IRI="#PRO5"/>
+        <Literal>Santiago</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+        <NamedIndividual IRI="#PRO6"/>
+        <Literal>A Coruña</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeMateriaEvento"/>
+        <NamedIndividual IRI="#SR1"/>
+        <Literal>Segunda Republica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeTitulo"/>
+        <NamedIndividual IRI="#TIT1"/>
+        <Literal>Viva la Republica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeTitulo"/>
+        <NamedIndividual IRI="#TIT2"/>
+        <Literal>Cae la Republica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeTitulo"/>
+        <NamedIndividual IRI="#TIT3"/>
+        <Literal>Viva la Segunda Republica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeTitulo"/>
+        <NamedIndividual IRI="#TIT4"/>
+        <Literal>Franco destrucor de la Republica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeTitulo"/>
+        <NamedIndividual IRI="#TIT5"/>
+        <Literal>Submarino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreDeTitulo"/>
+        <NamedIndividual IRI="#TIT6"/>
+        <Literal>Aviación</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#clasificaEn"/>
+        <Class IRI="#Documento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#disponeDe"/>
+        <Class IRI="#Formato"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#escritoEn"/>
+        <Class IRI="#Lengua"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#escritoPor"/>
+        <Class IRI="#Autor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#guardadoEn"/>
+        <Class IRI="#Biblioteca"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publicadoEn"/>
+        <Class IRI="#Fecha"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#puedeSer"/>
+        <Class IRI="#Titulo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#puedeSerME"/>
+        <Class IRI="#MateriaEvento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seComponeDe"/>
+        <Class IRI="#Editorial"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Documento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <Class IRI="#Ubicacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#clasificaEn"/>
+        <Class IRI="#Prensa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#clasificaEn"/>
+        <Class IRI="#Revista"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#disponeDe"/>
+        <Class IRI="#JPEG"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#disponeDe"/>
+        <Class IRI="#JPG"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#disponeDe"/>
+        <Class IRI="#PDF"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#escritoEn"/>
+        <Class IRI="#Aranes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#escritoEn"/>
+        <Class IRI="#Castellano"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#escritoEn"/>
+        <Class IRI="#Catalan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#escritoEn"/>
+        <Class IRI="#Euskadi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#escritoEn"/>
+        <Class IRI="#Gallego"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#escritoEn"/>
+        <Class IRI="#Valenciano"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#escritoPor"/>
+        <Class IRI="#Secundarios"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#escritoPor"/>
+        <Class IRI="#Unico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#guardadoEn"/>
+        <Class IRI="#AsociacionDePrensaDeMadrid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#guardadoEn"/>
+        <Class IRI="#BibliotecaDeCataluña"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#guardadoEn"/>
+        <Class IRI="#BibliotecaDeCultura"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#guardadoEn"/>
+        <Class IRI="#BibliotecaDeGalicia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#guardadoEn"/>
+        <Class IRI="#BibliotecaDeNavarra"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publicadoEn"/>
+        <Class IRI="#FechaDePublicacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publicadoEn"/>
+        <Class IRI="#PeriodoDePublicacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#puedeSer"/>
+        <Class IRI="#Individual"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#puedeSer"/>
+        <Class IRI="#Uniforme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#puedeSerME"/>
+        <Class IRI="#CienciaEspaña"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#puedeSerME"/>
+        <Class IRI="#DictaduraFranquista"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#puedeSerME"/>
+        <Class IRI="#FamiliaReal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#puedeSerME"/>
+        <Class IRI="#PoliticaEspaña"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#puedeSerME"/>
+        <Class IRI="#PrimeraRepublica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#puedeSerME"/>
+        <Class IRI="#SegundaRepublica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seComponeDe"/>
+        <Class IRI="#Editor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seComponeDe"/>
+        <Class IRI="#Imprenta"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Autor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Biblioteca"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Editorial"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Fecha"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Formato"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Lengua"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#MateriaEvento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Titulo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Ubicacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <Class IRI="#ComunidadAutonoma"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <Class IRI="#Localidad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <Class IRI="#Pais"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <Class IRI="#Provincia"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fecha"/>
+        <Class IRI="#Fecha"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#formatoDisponible"/>
+        <Class IRI="#Formato"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreDeAutor"/>
+        <Class IRI="#Autor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreDeBiblioteca"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreDeEditorial"/>
+        <Class IRI="#Editorial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreDeLengua"/>
+        <Class IRI="#Lengua"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreDeMateriaEvento"/>
+        <Class IRI="#MateriaEvento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreDeTitulo"/>
+        <Class IRI="#Titulo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+        <Class IRI="#Ubicacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreTipoDocumento"/>
+        <Class IRI="#Documento"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#fecha"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#formatoDisponible"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombreDeAutor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombreDeBiblioteca"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombreDeEditorial"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombreDeLengua"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombreDeMateriaEvento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombreDeTitulo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombreDeUbicacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombreTipoDocumento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
